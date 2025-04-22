@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Forms</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="page">
+    <div class="form-container">
+      <form class="form">
+        <h1 class="form__title">Log in</h1>
+        <fieldset class="form__fieldset">
+          <label for="username" class="form__label">Username</label>
+          <input
+            type="text"
+            class="form__input"
+            id="username"
+            name="username"
+            placeholder="Type your username"
+          />
+          <label for="password" class="form__label">Password</label>
+          <input
+            type="password"
+            class="form__input"
+            id="password"
+            name="password"
+            placeholder="Type your password"
+          />
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <input
+            type="checkbox"
+            class="form__input form__input-checkbox"
+            name="remember-me"
+            id="remember-me"
+          />
+          <label for="remember-me" class="form__label">Remember me</label>
+        </fieldset>
+        <fieldset class="form__fieldset">
+          <button type="submit" class="form__button">Log in</button>
+          <button type="reset" class="form__button">Reset</button>
+        </fieldset>
+      </form>
+    </div>
+  </body>
+</html>
